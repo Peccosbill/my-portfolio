@@ -5,7 +5,7 @@ import github from "../img/github.png";
 
 const Work = () => {
   return (
-    <div className="container mt-44 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-36 w-full">
+    <div className="container mt-44 flex justify-between items-center px-8 md:px-14 lg:px-36 w-full">
       <section className="w-full">
         <h2 id="work" className="secondary-title">
           Mi trabajo

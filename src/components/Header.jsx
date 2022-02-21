@@ -5,7 +5,7 @@ import cv from "../cv/jonathan montini developer fullstack backend frontend cv C
 const Header = () => {
   return (
     <div className="container mt-8 flex justify-between items-center px-8 md:px14 lg:px24 w-full">
-     <div className="flex flex-wrap md:flex-nowrap phone:ml-3">
+     <div className="flex flex-wrap md:flex-nowrap">
         <nav className="lg:mr-24 lg:w-4 hidden fixed left-percentage xl:block">
           <div
             className="absolute left-50 transform -translate-x-1/2 space-y-10 mt-36"
@@ -49,7 +49,7 @@ const Header = () => {
           className="flex flex-wrap lg:ml-28 justify-center md:justify-start max-w-xl mt-0 md:my-36"
         >
           <h1
-            className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left phone:text-4xl z-10"
+            className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left mobile:text-4xl z-10"
           >
             Contruyendo<br />
             hermosas experiencias web.
