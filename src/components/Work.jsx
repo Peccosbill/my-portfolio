@@ -92,7 +92,7 @@ const Work = () => {
             {/* <!-- App logo --> */}
             <div className="mb-6 lg:mb-0 flex items-center justify-center">
               <img src={airBalloon} alt="airBalloon" className="w-32" />
-              <p className="font-expletus text-4xl ml-3">Air Balloon Wheater</p>
+              <p className="font-expletus text-4xl ml-3 mobile:hidden">Air Balloon Wheater</p>
             </div>
 
             {/* <!-- App info --> */}
