@@ -1,8 +1,9 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      phone: "360px",
+    },
     extend: {
       colors: {
         body: "#17171F",
@@ -21,4 +22,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
