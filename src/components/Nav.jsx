@@ -6,7 +6,7 @@ const Nav = () => {
     const btn = document.querySelector("button.mobile-menu-button");
     const menu = document.querySelector(".mobile-menu");
 
-    // add event listeners
+    // add event listeners button
     btn.addEventListener("click", () => {
       menu.classList.toggle("hidden");
     });
