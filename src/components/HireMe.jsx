@@ -7,8 +7,8 @@ import github from "../img/github.png";
 const HireMe = () => {
   return (
     <div className="container mt-44 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-36 w-full">
-      <div className="w-full">
-        <h2 id="hire" className="secondary-title">
+      <div className="form__container w-full ">
+        <h2 id="hire" className="form__container secondary-title">
           Contactame
         </h2>
         <p className="section-paragraph">
@@ -17,12 +17,16 @@ const HireMe = () => {
         </p>
 
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-          <div className="space-y-12">
+          <form
+            action="https://formspree.io/f/mqknqwoa"
+            method="POST"
+            className="space-y-12"
+          >
             <div>
               <label className="text-white block mb-6 text-xl font-bold">
                 Nombre
               </label>
-              <input className="w-full border border-input-border bg-input px-4 py-4" />
+              <input type="text" name="name" className="form__input w-full border border-input-border bg-input px-4 py-4" />
             </div>
             <div>
               <label className="text-white block mb-6 text-xl font-bold">
@@ -30,7 +34,8 @@ const HireMe = () => {
               </label>
               <input
                 type="email"
-                className="w-full border border-input-border bg-input px-4 py-4"
+                name="email"
+                className="form__input w-full border border-input-border bg-input px-4 py-4"
               />
             </div>
             <div>
@@ -39,13 +44,16 @@ const HireMe = () => {
               </label>
               <textarea
                 type="email"
-                className="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
+                name="message"
+                className="form__input form__input--message w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
               ></textarea>
             </div>
-            <button className="px-6 py-2 bg-theme text-white font-bold">
-              Enviar!
-            </button>
-          </div>
+            <input
+              type="submit"
+              value="Enviar!"
+              className="form__cta px-6 py-2 bg-theme text-white font-bold"
+            />
+          </form>
 
           {/* <!-- Socials --> */}
           <div className="mt-32 flex items-center space-x-6">
