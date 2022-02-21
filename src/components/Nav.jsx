@@ -44,7 +44,7 @@ const Nav = () => {
           </button>
         </div>
       </div>
-      <div className="mobile-menu hidden">
+      <div className="mobile-menu hidden md:hidden">
         <a href="!#" className="block text-right py-2 px-4 text-sm hover:bg-theme">
           Inicio
         </a>
