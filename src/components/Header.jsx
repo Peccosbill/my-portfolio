@@ -1,5 +1,6 @@
 import React from "react";
 import myPhoto from "../img/myphoto.jpg";
+import cv from "../cv/jonathan montini developer fullstack backend frontend cv Currículum.pdf";
 
 const Header = () => {
   return (
@@ -75,14 +76,14 @@ const Header = () => {
                   />
                 </svg>
               </div>
-              <span>Ver mi trabajo.</span>
+              <a href={cv} download={cv}><span>Download CV.</span></a>
             </button>
           </div>
         </div>
         <img
           src={myPhoto}
           alt="Man"
-          className="shadow-lg shadow-black w-2/3 rounded-full mt-20 mx-auto md:absolute md:mt-0 right-12 md:w-2/6 lg:w-5/12 lg:mr-28 z-1"
+          className="shadow-lg shadow-black w-2/3 rounded-full mt-20 mx-auto md:absolute md:mt-0 right-12 md:w-2/6 lg:w-5/12 lg:mr-8 lg:mt-16 z-1"
         />
       </div>
     </div>

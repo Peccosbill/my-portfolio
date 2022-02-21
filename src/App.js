@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Work from "./components/Work";
 import HireMe from "./components/HireMe";
 import Technologies from "./components/Technologies";
-// import updateList from './main';
 
 function App() {
   function updateList() {
