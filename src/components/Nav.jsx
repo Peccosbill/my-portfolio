@@ -45,18 +45,18 @@ const Nav = () => {
         </div>
       </div>
       <div className="mobile-menu hidden">
-        <a href="!#" className="block py-2 px-4 text-sm hover:bg-theme">
+        <a href="!#" className="block text-right py-2 px-4 text-sm hover:bg-theme">
           Inicio
         </a>
-        <a href="#work" className="block py-2 px-4 text-sm hover:bg-theme">
+        <a href="#work" className="block text-right py-2 px-4 text-sm hover:bg-theme">
           Mi trabajo
         </a>
-        <a href="#tech" className="block py-2 px-4 text-sm hover:bg-theme">
+        <a href="#tech" className="block text-right py-2 px-4 text-sm hover:bg-theme">
           Tecnologías
         </a>
         <a
           href="#hire"
-          className="text-selected-text  block py-2 px-4 text-sm hover:bg-theme"
+          className="text-selected-text  block text-right py-2 px-4 text-sm hover:bg-theme"
         >
           Contactame
         </a>
