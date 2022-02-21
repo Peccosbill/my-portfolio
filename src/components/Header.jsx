@@ -4,8 +4,8 @@ import cv from "../cv/jonathan montini developer fullstack backend frontend cv C
 
 const Header = () => {
   return (
-    <div className="container mt-8 flex justify-between items-center mx-auto px-8 md:px14 lg:px24 w-full">
-     <div className="flex flex-wrap md:flex-nowrap">
+    <div className="container mt-8 flex justify-between items-center px-8 md:px14 lg:px24 w-full">
+     <div className="flex justify-center flex-wrap md:flex-nowrap">
         <nav className="lg:mr-24 lg:w-4 hidden fixed left-percentage xl:block">
           <div
             className="absolute left-50 transform -translate-x-1/2 space-y-10 mt-36"
