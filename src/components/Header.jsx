@@ -83,7 +83,7 @@ const Header = () => {
         <img
           src={myPhoto}
           alt="Man"
-          className="shadow-lg shadow-black w-2/3 rounded-full mt-20 mx-auto md:absolute md:mt-0 right-12 md:w-2/6 lg:w-5/12 lg:mr-8 lg:mt-16 z-1"
+          className="shadow-lg shadow-black w-2/3 rounded-full mt-20 mx-auto md:absolute md:mt-0 right-12 md:w-2/6 lg:w-5/12 lg:mr-8 z-1"
         />
       </div>
     </div>
