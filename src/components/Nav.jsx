@@ -7,9 +7,9 @@ const Nav = () => {
     const menu = document.querySelector(".mobile-menu");
 
     // add event listeners button
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (() => {
       menu.classList.toggle("hidden");
-    });
+    })());
   }
 
   return (
@@ -28,7 +28,7 @@ const Nav = () => {
         </div>
         {/* Mobile button */}
         <div className="md:hidden flex items-center">
-          <button className="mobile-menu-button" onClick={clickMenu}>
+          <button className="mobile-menu-button" onClick={() => clickMenu()}>
             <svg
               width="26"
               height="18"
