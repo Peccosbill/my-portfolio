@@ -51,7 +51,7 @@ const Header = () => {
           <h1
             className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left mobile:text-4xl z-10"
           >
-            Contruyendo<br />
+            Construyendo<br />
             hermosas experiencias web.
           </h1>
           <div className="w-full flex justify-center md:justify-start">
