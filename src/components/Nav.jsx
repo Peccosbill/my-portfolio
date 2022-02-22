@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="py-6 container flex justify-between items-center mx-auto px-8 md:px14 lg:px-24 w-full">
+      <div className="py-6 container flex justify-between items-center mx-auto px-4 md:px14 lg:px-4 w-full">
         <div className="text-lg font-bold">Jonathan.montini</div>
         <div className="hidden md:flex space-x-12 items-center">
           <a href="!#" className="text-selected-text">
