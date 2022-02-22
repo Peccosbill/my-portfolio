@@ -26,7 +26,7 @@ const Technologies = () => {
           Estos son los lenguages y librerías que he estado aprendiendo e
           implementando en mis proyectos
         </p>
-        <div className="flex flex-wrap">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
           <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
             <img src={html} alt="jslogo" className="w-24 h-20" />
             <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
