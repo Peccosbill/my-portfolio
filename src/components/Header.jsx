@@ -1,10 +1,10 @@
 import React from "react";
 import myPhoto from "../img/myphoto.jpg";
-import cv from "../cv/jonathan montini developer fullstack backend frontend cv Currículum.pdf";
+import cv from "../cv/Currículum CV Developer Jonathan Montini.pdf";
 
 const Header = () => {
   return (
-    <div className="container mt-8 flex justify-between items-center px-8 md:px14 lg:px24 w-full">
+    <div className="container mt-8 mx-auto md:mx-0 flex justify-between items-center md:px-14 lg:px-18 w-full">
      <div className="flex flex-wrap md:flex-nowrap">
         <nav className="lg:mr-24 lg:w-4 hidden fixed left-percentage xl:block">
           <div

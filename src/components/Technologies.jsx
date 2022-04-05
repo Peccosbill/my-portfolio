@@ -17,7 +17,7 @@ import heroku from "../img/heroku.png";
 
 const Technologies = () => {
   return (
-    <div className="container mt-44 flex justify-between items-center px-8 md:px-14 lg:ml-20 w-full">
+    <div className="container mt-44 mx-auto flex justify-between items-center px-4 lg:px-8 md:px-14 w-full">
       <section className="w-full">
         <h2 id="tech" className="secondary-title">
           Tecnologías
