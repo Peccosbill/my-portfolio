@@ -15,6 +15,7 @@ import insomnia from "../img/insomnia.png";
 import jest from "../img/jest.png";
 import heroku from "../img/heroku.png";
 import python from "../img/python.png";
+import solidity from "../img/solidity.png";
 
 const Technologies = () => {
   return (
@@ -86,6 +87,12 @@ const Technologies = () => {
             <img src={express} alt="express" className="w-24 h-20" />
             <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
               ExpressJS
+            </span>
+          </div>
+          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
+            <img src={solidity} alt="jslogo" className="w-24 h-20" />
+            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+              Solidity
             </span>
           </div>
           <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
