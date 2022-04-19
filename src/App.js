@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Work from "./components/Work";
 import HireMe from "./components/HireMe";
 import Technologies from "./components/Technologies";
+// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function App() {
   function updateList() {
@@ -30,7 +31,10 @@ function App() {
   });
 
   return (
-    <div className="bg-body h-full text-white font-poppins pb-12">
+    <div
+      pages={4}
+      className="bg-body h-full w-screen text-white font-poppins pb-12"
+    >
       <Nav />
       <Header />
       <Work />
