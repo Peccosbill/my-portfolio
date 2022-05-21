@@ -16,8 +16,34 @@ import jest from "../img/jest.png";
 import heroku from "../img/heroku.png";
 import python from "../img/python.png";
 import solidity from "../img/solidity.png";
+import scrum from "../img/scrum.png";
+import selenium from "../img/selenium.png";
+import vercel from "../img/vercel.svg";
 
 const Technologies = () => {
+  const technologies = [
+    { name: "HTML5", image: html },
+    { name: "CSS3", image: css },
+    { name: "JavaScript", image: javascript },
+    { name: "HTML5", image: typescript },
+    { name: "ReactJS", image: react },
+    { name: "Redux", image: redux },
+    { name: "NodeJS", image: node },
+    { name: "ExpressJS", image: express },
+    { name: "Sequelize", image: sequelize },
+    { name: "TailwindCSS", image: tailwind },
+    { name: "PostgreSQL", image: postgresql },
+    { name: "Insomnia", image: insomnia },
+    { name: "Jest", image: jest },
+    { name: "Solidity", image: solidity },
+    { name: "Python", image: python },
+    { name: "Selenium", image: selenium },
+    { name: "Git", image: git },
+    { name: "Heroku", image: heroku },
+    { name: "Vercel", image: vercel },
+    { name: "Scrum", image: scrum },
+  ];
+
   return (
     <div className="container mt-44 mx-auto flex justify-between items-center px-4 lg:px-8 md:px-14 w-full">
       <section className="w-full">
@@ -29,108 +55,14 @@ const Technologies = () => {
           implementando en mis proyectos
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={html} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              HTML5
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={css} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              CSS3
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={javascript} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              JavaScript
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={typescript} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              TypeScript
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={react} alt="react" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              ReactJS
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={redux} alt="redux" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Redux
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={python} alt="redux" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Python
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={tailwind} alt="tailwind" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Tailwind
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={node} alt="node" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              NodeJS
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={express} alt="express" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              ExpressJS
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={solidity} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Solidity
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={sequelize} alt="sequelize" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Sequelize
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={postgresql} alt="postgresql" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              PostgreSQL
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={jest} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Jest
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={git} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Git
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={insomnia} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Insomnia
-            </span>
-          </div>
-          <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
-            <img src={heroku} alt="jslogo" className="w-24 h-20" />
-            <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-              Heroku
-            </span>
-          </div>
+          {technologies.map((tech) => (
+            <div className="m-3 p-6 w-32 h-32 shadow-md shadow-black bg-badge rounded-full transform duration-100 hover:scale-105 hover:bg-input-border nav-dot">
+              <img src={tech.image} alt="jslogo" className="w-24 h-20" />
+              <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+                {tech.name}
+              </span>
+            </div>
+          ))}
         </div>
       </section>
     </div>
