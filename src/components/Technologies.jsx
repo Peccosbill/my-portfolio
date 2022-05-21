@@ -24,6 +24,7 @@ const Technologies = () => {
   const technologies = [
     { name: "HTML5", image: html },
     { name: "CSS3", image: css },
+    { name: "TailwindCSS", image: tailwind },
     { name: "JavaScript", image: javascript },
     { name: "HTML5", image: typescript },
     { name: "ReactJS", image: react },
@@ -31,7 +32,6 @@ const Technologies = () => {
     { name: "NodeJS", image: node },
     { name: "ExpressJS", image: express },
     { name: "Sequelize", image: sequelize },
-    { name: "TailwindCSS", image: tailwind },
     { name: "PostgreSQL", image: postgresql },
     { name: "Insomnia", image: insomnia },
     { name: "Jest", image: jest },
