@@ -32,13 +32,14 @@ function App() {
 
   function lockScreen(orientation) {
     let de = document.documentElement
-    if (de.requestFullscreen) { de.requestFullscreen }
-    else if (de.mozRequesFullScreen) { de.mozRequestFullScreen }
-    else if (de.webkitRequestFullscreen) { de.webkitRequestFullscreen }
-    else if (de.msRequestFullscreen) { de.msRequestFullscreen }
-    screen.orientation.lock(orientation)
+    if (de.requestFullscreen) { de.requestFullscreen() }
+    else if (de.mozRequesFullScreen) { de.mozRequestFullScreen() }
+    else if (de.webkitRequestFullscreen) { de.webkitRequestFullscreen() }
+    else if (de.msRequestFullscreen) { de.msRequestFullscreen() }
+    
+    window.screen.orientation.lock(orientation)
   }
-  lockScreen('portrait-primary')
+  lockScreen('portrait')
 
   return (
     <div
