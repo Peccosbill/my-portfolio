@@ -72,10 +72,13 @@ function App() {
 
   return (
     <div className="bg-body h-full w-full text-white font-poppins pb-12">
-      <main id="main" className='w-full relative'>
-        <div ref={headerRef} className='w-full h-screen absolute top-0 left-0 z-0' />
-          <Nav />
-          <Header />
+      <div
+        ref={headerRef}
+        className="w-full h-screen absolute top-0 left-0 z-0"
+      />
+      <main id="main" className="w-full relative">
+        <Nav />
+        <Header />
         <Work />
         <Technologies />
         <HireMe />
